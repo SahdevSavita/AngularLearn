@@ -62,12 +62,15 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+      
           "configurations": {
             "production": {
               "buildTarget": "MyAngularApp:build:production"
+            
             },
             "development": {
               "buildTarget": "MyAngularApp:build:development"
+            
             }
           },
           "defaultConfiguration": "development"
@@ -97,5 +100,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "74554dc4-91ee-4206-a1f6-f78c4d83719a"
   }
 }
