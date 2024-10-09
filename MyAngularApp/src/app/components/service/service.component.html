@@ -1,0 +1,24 @@
+<section id="service-sec">
+    <div class="container">
+        <div class="row">
+            <div class="service-headding">
+                <h2 class="ser-headding">My Quality Services</h2>
+            </div>
+        </div>
+  
+             <div *ngFor="let category of items" class="service-box">
+                <div class="ser-box-heading">
+                    <span class="ser-num" >{{ category.textobject }}</span>
+                    <h3 class="service-heading-box">{{category.category}}</h3>
+                </div>
+                <div class="ser-pera-box">
+                    <p class="ser-pera">{{category.items}}</p>
+                    <div *ngFor="let image of image" >
+                        <img [src]="image" alt="Image" />
+                      </div>
+                </div> 
+            </div> 
+        </div>
+    
+</section>
+<app-skills></app-skills>

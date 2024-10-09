@@ -1,0 +1,47 @@
+
+
+.navbar-brand{
+    width: 70%;
+}
+.hire-btn {
+min-width: 130px;
+font-size: 18px;
+color: #fff;
+background: linear-gradient(90deg, rgb(135, 80, 247) 35%, rgb(50, 6, 140) 92%);
+padding: 15px 25px;
+margin-left: 33px;
+border-radius: 48px;
+text-align: center;
+display: inline-block;
+transition: 0.5s;
+}
+.hire-btn:hover{
+    background: linear-gradient(90deg, rgb(50, 6, 140) 35%, rgb(135, 80, 247) 92%);
+}
+.navbar-nav>.nav-item{
+    font-size: 18px;
+    font-weight: 400;
+}
+.navbar-nav>.nav-item>.nav-link{
+    color:#000;
+    transition: 0.5s;
+}
+.navbar-nav>.nav-item>.nav-link:hover{
+    color: #8750F7;
+}
+
+@media screen and (max-width:992px) {
+    .hire-btn{
+        margin-left: 0;
+    }
+    .navbar-collapse{
+        padding: 20px;
+    }
+    .navbar-collapse.show{
+        background: #95f602;
+        position: absolute;
+        top: 59px;
+        left: 0;
+        width: 100%;
+    }
+}

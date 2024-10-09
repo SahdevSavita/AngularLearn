@@ -1,1 +1,18 @@
-<p>skills works!</p>
+<!-- <div class="skl-main-box" >
+    <div class="skill-box" *ngFor="let category of skillItems">
+        <div *ngFor="let image of skillsimg" class="skills-img">
+            <img [src]="image" alt="Image" />
+        </div>
+        <p>{{category.category}}</p>
+    </div>
+</div> -->
+
+<div class="skills-main">
+<div class="skills" *ngFor="let tech of technologies">
+<div class="skill-img">
+    <img [src]="tech.image" alt="" >
+  </div>
+  <p>{{ tech.name }}</p>
+</div>
+</div>
+

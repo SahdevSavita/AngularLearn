@@ -1,0 +1,50 @@
+/* .ser-headding {
+    font-size: 36px;
+    background: linear-gradient(90deg, rgb(135, 80, 247) 4%, rgb(50, 6, 140) 62%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px 0;
+} */
+
+
+.service-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 55px 22px 24px;
+    border-bottom: solid 1px #C8C8C8;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.ser-box-heading{
+    display: flex;
+    align-items: center;
+}
+.ser-num{
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 18px;
+    color: #8750F7;
+}
+.service-heading-box{
+    font-size: 30px;
+    font-weight: 700;
+    color: #8750F7;
+
+}
+.ser-pera-box{
+    display: flex;
+    align-items: center;
+}
+.ser-pera{
+    font-size: 20px;
+    color: #1E1E1E;
+    max-width: 420px;
+    margin-right: 60px;
+}
+.ser-pera-box img{
+    transform: rotate(280deg);
+}

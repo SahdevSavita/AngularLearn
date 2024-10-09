@@ -1,1 +1,47 @@
-<p>about works!</p>
+<section id="about-sec">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-lg-6">
+                <div class="banner-text">
+                    <p class="small-text">I am Sahdev</p>
+                    <h1 class="banner-headding">Web Designer +
+                        Web Developer Based in India</h1>
+                    <p class="title-disc">I'm a India based Web designer &amp; web developer with 1+ years&nbsp;of experience</p>
+                    <div class="social-icon-box">
+                        <div class="download-box">
+                            <a href="#" class="download-btn">Download CV <span><img src="download-icon.png" alt=""></span></a>
+                        </div>
+
+                        <div class="icon">
+                            <a href="#" class="media-icon">
+                             <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sahdev-savita-490a87255/" target="_blank" class="media-icon">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                             <a href="https://github.com/SahdevSavita" target="_blank" class="media-icon">
+                                <i class="fa fa-behance" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="media-icon">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 text-end">
+                <div class="banner-img">
+                    <img src="sahdev.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="couter-mainbox">
+            <div class="cout-box" *ngFor="let category of items">
+                <h3>{{ category.category }}</h3>
+                <p *ngFor="let item of category.items">{{item}}</p>
+            </div>
+        </div>
+    </div>
+</section>
+<app-service></app-service>
