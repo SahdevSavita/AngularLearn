@@ -34,7 +34,7 @@ export class SkillsComponent {
     { name: 'Angular basic Knowledge', image: 'angular.png' },
     { name: 'Bootstrap3/4/5', image: 'bootstrap.png' },
     { name: 'Responsive Design', image: 'responsive-page 1.png' },
-    { name: 'Content Optimization', image: 'optim.png' },
+    { name: 'Content Optimization', image: 'optim.png'},
   ];
 
 
